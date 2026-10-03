@@ -5,7 +5,7 @@ i ją respawnujesz obok siebie (poprzednia Twoja hulajnoga znika). PPM = wsiadas
 
 ## Budowanie
 1. Zainstaluj JDK 17.
-2. W folderze projektu: `gradle wrapper --gradle-version 8.5` (jednorazowo), potem `./gradlew build`
+2. W folderze projektu: `gradle wrapper --gradle-version 8.8` (jednorazowo), potem `./gradlew build`
    (Windows: `gradlew.bat build`).
 3. Gotowy mod: `build/libs/eco-kukirin-1.0.0.jar` -> do folderu `mods/` razem z **Fabric API** i Fabric Loader 1.20.1.
    (Do testów: `./gradlew runClient`.)
