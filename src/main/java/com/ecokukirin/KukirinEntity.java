@@ -108,9 +108,6 @@ public class KukirinEntity extends PathAwareEntity {
     public double getMountedHeightOffset() { return 0.6; }
 
     @Override
-    public boolean shouldRiderSit() { return false; } // gracz stoi na hulajnodze
-
-    @Override
     public boolean canBeLeashedBy(PlayerEntity player) { return false; }
 
     @Override
